@@ -15,13 +15,21 @@
         .poppins {
             font-family: 'Poppins', sans-serif;
         }
+
+        .title {
+            font-size: 48px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 150px;
+        }
     </style>
 
 </head>
 
 <body class="poppins">
     <header class="xl:w-4/5 w-[95%] mx-auto">
-        <!-- navbar with daisyui -->
+        <!-- navbar with daisyUI -->
+
         <nav class="sticky top-2 mt-12">
             <div class="navbar bg-base-100">
                 <div class="navbar-start ">
@@ -51,10 +59,13 @@
                         <li><a>Contact</a></li>
                     </ul>
 
-                    <a class="btn bg-[#E76F51] bg-baton text-white font-bold px-10">Login</a>
+                    <a href="">
+                        <button class=" bg-[#E76F51] text-white font-bold px-12 py-4 rounded-md">Login</button>
+                    </a>
                 </div>
             </div>
         </nav>
+
         <!-- completed in 32 minute -->
 
         <!-- header slider with daisyui -->
@@ -135,6 +146,87 @@
         </div> -->
 
     </header>
+
+    <main class="xl:w-4/5 w-[95%] mx-auto mb-32">
+
+        <!-- section 2 -->
+
+        <section>
+            <div>
+                <h2 class="title">Featured Bikes In This Year</h2>
+                <p class="text-sm font-semibold text-[#E76F51] text-center ">Best bike collection</p>
+                <hr class="border-[#E76F51] w-14 mt-1 mb-16 mx-auto">
+                <div class="flex justify-between flex-col sm:flex-row items-center gap-28">
+                    <div><img src="images/others/feature-bike.png" alt=""></div>
+                    <div><img src="images/others/feature-bike.png" alt=""></div>
+                    <div><img src="images/others/feature-bike.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+
+        <section>
+            <div>
+
+                <h2 class="title mb-14">latest News</h2>
+
+                <div class="flex justify-between flex-col sm:flex-row items-center gap-28">
+                    <!-- card 1 -->
+
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure class="px-5 pt-5">
+                            <img src="images/others/latest1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title mb-2">Ducati XDIAVEL S-73</h3>
+                            <p class="mb-8">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis labore repudiandae sint nisi earum.
+                            </p>
+                            <div class="card-actions">
+                                <button class=" bg-[#E76F51] text-white font-bold px-8 py-4 rounded-md">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure class="px-5 pt-5">
+                            <img src="images/others/latest2.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title mb-2">Ducati XDIAVEL S-73</h3>
+                            <p class="mb-8">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis labore repudiandae sint nisi earum.
+                            </p>
+                            <div class="card-actions">
+                                <button class=" bg-[#E76F51] text-white font-bold px-8 py-4 rounded-md">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure class="px-5 pt-5">
+                            <img src="images/others/latest3.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title mb-2">Ducati XDIAVEL S-73</h3>
+                            <p class="mb-8">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis labore repudiandae sint nisi earum.
+                            </p>
+                            <div class="card-actions">
+                                <button class=" bg-[#E76F51] text-white font-bold px-8 py-4 rounded-md">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 </body>
 
 </html>
